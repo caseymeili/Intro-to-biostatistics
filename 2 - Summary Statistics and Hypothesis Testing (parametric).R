@@ -171,38 +171,3 @@ t_test_result
 
 
 
-
-
-
-
-
-
-
-
-
-
-# removing outliers (e.g., values greater than 32)
-wild_type_no_outliers <- subset(wild_type, wild_type <= 32)
-
-# Summary stats after removing outliers
-trimmed_summary <- summary_stats(wild_type_no_outliers)
-
-# T-test after removing outliers
-t_test_result_no_outliers <- t.test(wild_type_no_outliers, mutant)
-t_test_result_no_outliers
-
-
-# Print results
-cat("Original Summary Statistics:\n", original_summary, "\n\n")
-cat("T-Test Result (Original Data):\n", t_test_result, "\n\n")
-
-cat("Summary Statistics after Removing Outliers:\n", trimmed_summary, "\n\n")
-cat("T-Test Result after Removing Outliers:\n", t_test_result_no_outliers, "\n")
-
-
-
-
-
-
-
-
