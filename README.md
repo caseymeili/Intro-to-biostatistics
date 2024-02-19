@@ -6,6 +6,6 @@ Code written for Intro to Biostatistics (MBIOL 6490) at the University of Utah, 
 * Problem Set 1
 * Multiple Comparisons: Power
 * Regression & Correlation
-* Computing Probability Using Simulation
-* Survival: Time Series (Lecture) and Review (TBL)
+* Sampling and Comparing Samples
+* Computing Probability Using Simulation and Review (TBL)
 * Problem Set 2
